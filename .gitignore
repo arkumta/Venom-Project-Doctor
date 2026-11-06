@@ -10,6 +10,13 @@
 !.yarn/releases
 !.yarn/versions
 
+node_modules/
+.next/
+.turbo/
+*.tgz
+.env*
+!.env.example
+
 # testing
 /coverage
 
