@@ -1,0 +1,32 @@
+{
+  "name": "venom-doctor",
+  "version": "0.1.1",
+  "description": "CLI diagnostics for Venom and Locklift smart contract projects",
+  "license": "MIT",
+  "keywords": [
+    "venom",
+    "locklift",
+    "blockchain",
+    "smart-contracts",
+    "developer-tools",
+    "project-doctor"
+  ],
+  "bin": {
+    "venom-doctor": "bin/venom-doctor.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "typescript": "^5.0.0"
+  }
+}
